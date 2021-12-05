@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: pink;
+    height: 80px;
+}
+
+.nav_menu {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.nav_menu-item {
+    list-style: none;
+    padding: 16px 16px;
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+.active {
+    border-bottom: 4px solid red;
+}
